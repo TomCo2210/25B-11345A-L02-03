@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/blue_200"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -87,6 +88,7 @@
             android:id="@+id/main_IMG_heart2"
             android:layout_width="@dimen/heart_dimens"
             android:layout_height="@dimen/heart_dimens"
+            android:visibility="visible"
             app:srcCompat="@drawable/heart" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 </RelativeLayout>
